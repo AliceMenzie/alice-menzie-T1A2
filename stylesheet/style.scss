@@ -17,6 +17,10 @@ header{
     
     .nav-links {    
         list-style: none;
+        li{
+            padding-bottom: 1em;
+            
+        }
     
     }
     nav {
@@ -28,19 +32,7 @@ header{
         font-size: 1.4em;
         text-transform: uppercase;
         letter-spacing: 0.5em;
-
-        // .fab fa-linkedin {
-        //      font-size: 1em;
-
-        // }
     }
 
-    }
    
-    .nav-links li{
-        padding-bottom: 1em;
-        
-    }
-
-}
 
