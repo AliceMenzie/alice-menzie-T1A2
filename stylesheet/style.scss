@@ -5,3 +5,42 @@
 
 $main-color: #36363A;
 $hero-color: #D5C7BC;
+
+// $hero-font: 'Montserrat', sans-serif;
+
+header{
+    width: 100%;
+    background-color: $main-color;
+    color: $hero-color;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+    
+    .nav-links {    
+        list-style: none;
+    
+    }
+    nav {
+        margin: 5% 10% 5% 2.5%;
+        display: flex;
+        justify-content: space-between ;
+
+        .logo {
+        font-size: 1.4em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+
+        // .fab fa-linkedin {
+        //      font-size: 1em;
+
+        // }
+    }
+
+    }
+   
+    .nav-links li{
+        padding-bottom: 1em;
+        
+    }
+
+}
+
