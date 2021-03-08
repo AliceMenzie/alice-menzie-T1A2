@@ -69,4 +69,49 @@ body section.hero img {
   padding: 5%;
   margin: 5%;
 }
+
+body main {
+  padding: 10% 5% 10% 5%;
+  background-color: #36363A;
+  color: #D5C7BC;
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .section-1 {
+  width: 20%;
+  margin: 5%;
+  padding: 1%;
+  border: 1px solid #D5C7BC;
+}
+
+body main .section-1 .h3 {
+  padding-bottom: 1%;
+}
+
+body main .section-2 {
+  margin: 5%;
+  width: 20%;
+  padding: 1%;
+  border: 1px solid #D5C7BC;
+}
+
+body main .section-2 .h3 {
+  padding-bottom: 1%;
+}
+
+body main .section-3 {
+  margin: 5%;
+  width: 20%;
+  padding: 1%;
+  border: 1px solid #D5C7BC;
+}
+
+body main .section-3 .h3 {
+  padding-bottom: 2%;
+}
 /*# sourceMappingURL=style.css.map */
