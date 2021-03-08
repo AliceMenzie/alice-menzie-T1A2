@@ -3,19 +3,14 @@
   padding: 0;
 }
 
-header {
-  width: 100%;
+body header {
   background-color: #36363A;
   color: #D5C7BC;
   padding: 2em;
   font-family: 'Roboto', sans-serif;
 }
 
-header .nav-links {
-  list-style: none;
-}
-
-header nav {
+body header nav {
   margin: 5% 10% 5% 2.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,17 +20,53 @@ header nav {
           justify-content: space-between;
 }
 
-header nav .logo {
-  font-size: 1.4em;
+body header nav .logo-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav .logo-links .logo {
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
 
-header nav .logo .fab fa-linkedin {
+body header nav .nav-links {
+  list-style: none;
   font-size: 1em;
 }
 
-header .nav-links li {
+body header nav .nav-links li {
   padding-bottom: 1em;
+}
+
+body section.hero {
+  background-color: #D5C7BC;
+  color: #36363A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: lighter;
+  padding: 5%;
+}
+
+body section.hero img {
+  opacity: 60%;
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  margin: 5%;
 }
 /*# sourceMappingURL=style.css.map */
