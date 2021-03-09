@@ -41,6 +41,16 @@ header nav .nav-links li {
   padding-bottom: 1em;
 }
 
+.icon-link {
+  text-decoration: none;
+  color: #D5C7BC;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #D5C7BC;
+}
+
 section.hero {
   background-color: #D5C7BC;
   color: #36363A;

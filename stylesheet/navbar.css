@@ -1,4 +1,11 @@
-nav {
+header {
+  background-color: #36363A;
+  color: #D5C7BC;
+  padding: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav {
   margin: 5% 10% 5% 2.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,24 +15,34 @@ nav {
           justify-content: space-between;
 }
 
-nav .logo-links {
+header nav .logo-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-nav .logo-links .logo {
+header nav .logo-links .logo {
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
 
-nav .nav-links {
+header nav .nav-links {
   list-style: none;
   font-size: 1em;
 }
 
-nav .nav-links li {
+header nav .nav-links li {
   padding-bottom: 1em;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #D5C7BC;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #D5C7BC;
 }
 /*# sourceMappingURL=navbar.css.map */

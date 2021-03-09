@@ -1,8 +1,12 @@
+$main-color: #36363A;
+$hero-color: #D5C7BC;
+
 header {
     background-color: $main-color;
     color: $hero-color;
     padding: 2em;
     font-family: 'Roboto', sans-serif;
+    
 
     nav {
         margin: 5% 10% 5% 2.5%;
@@ -30,4 +34,14 @@ header {
     } 
        
 }
-       
+
+.icon-link{
+    text-decoration: none;
+    color: $hero-color;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: $hero-color;
+}
