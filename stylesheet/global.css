@@ -2,4 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+  color: #D5C7BC;
+}
 /*# sourceMappingURL=global.css.map */

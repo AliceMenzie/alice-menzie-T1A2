@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #D5C7BC;
+}
+
 header {
   background-color: #36363A;
   color: #D5C7BC;
@@ -39,16 +44,6 @@ header nav .nav-links {
 
 header nav .nav-links li {
   padding-bottom: 1em;
-}
-
-.icon-link {
-  text-decoration: none;
-  color: #D5C7BC;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #D5C7BC;
 }
 
 section.hero {
