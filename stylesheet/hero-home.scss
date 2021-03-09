@@ -1,3 +1,7 @@
+$main-color: #36363A;
+$hero-color: #D5C7BC;
+
+
 section.hero {
     background-color: $hero-color;
     color: $main-color;
@@ -23,3 +27,4 @@ section.hero {
         padding: 5%;
         margin: 5%;
     }
+}

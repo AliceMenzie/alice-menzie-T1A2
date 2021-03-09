@@ -3,14 +3,14 @@
   padding: 0;
 }
 
-body header {
+header {
   background-color: #36363A;
   color: #D5C7BC;
   padding: 2em;
   font-family: 'Roboto', sans-serif;
 }
 
-body header nav {
+header nav {
   margin: 5% 10% 5% 2.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,28 +20,28 @@ body header nav {
           justify-content: space-between;
 }
 
-body header nav .logo-links {
+header nav .logo-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body header nav .logo-links .logo {
+header nav .logo-links .logo {
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
 
-body header nav .nav-links {
+header nav .nav-links {
   list-style: none;
   font-size: 1em;
 }
 
-body header nav .nav-links li {
+header nav .nav-links li {
   padding-bottom: 1em;
 }
 
-body section.hero {
+section.hero {
   background-color: #D5C7BC;
   color: #36363A;
   display: -webkit-box;
@@ -55,14 +55,14 @@ body section.hero {
           align-items: center;
 }
 
-body section.hero h1 {
+section.hero h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   font-weight: lighter;
   padding: 5%;
 }
 
-body section.hero img {
+section.hero img {
   opacity: 60%;
   width: 100%;
   height: auto;
@@ -70,7 +70,7 @@ body section.hero img {
   margin: 5%;
 }
 
-body main {
+main {
   padding: 10% 5% 10% 5%;
   background-color: #36363A;
   color: #D5C7BC;
@@ -82,21 +82,21 @@ body main {
       flex-wrap: wrap;
 }
 
-body main .section-1 {
+main .section-1 {
   width: 20%;
   margin: 5%;
   padding: 1%;
   border: 1px solid #D5C7BC;
 }
 
-body main .section-2 {
+main .section-2 {
   margin: 5%;
   width: 20%;
   padding: 1%;
   border: 1px solid #D5C7BC;
 }
 
-body main .section-3 {
+main .section-3 {
   margin: 5%;
   width: 20%;
   padding: 1%;
