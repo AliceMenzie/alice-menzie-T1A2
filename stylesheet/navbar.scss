@@ -1,0 +1,25 @@
+
+ nav {
+    margin: 5% 10% 5% 2.5%;
+    display: flex;
+    justify-content: space-between ;
+
+    .logo-links{
+        display: flex;
+        
+        .logo {
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 0.5em;
+        } 
+        
+    }
+    .nav-links {    
+        list-style: none;
+        font-size: 1em;
+        li{
+            padding-bottom: 1em;
+        }    
+    
+    }        
+}        

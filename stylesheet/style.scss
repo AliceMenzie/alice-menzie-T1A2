@@ -1,3 +1,10 @@
+// @import filename;
+// @import "global.scss";
+@import "navbar.scss";
+@import "hero-home.scss";
+@import "main-home.scss";
+
+
 *{  
     
     margin: 0;
@@ -15,58 +22,10 @@ body {
         padding: 2em;
 
         font-family: 'Roboto', sans-serif;
-        nav {
-            margin: 5% 10% 5% 2.5%;
-            display: flex;
-            justify-content: space-between ;
-
-            .logo-links{
-                display: flex;
-                
-                .logo {
-                    font-size: 2em;
-                    text-transform: uppercase;
-                    letter-spacing: 0.5em;
-                } 
-                
-            }
-            .nav-links {    
-                list-style: none;
-                font-size: 1em;
-                li{
-                    padding-bottom: 1em;
-                }    
-            
-            }        
-        }            
+           
     }
     
-    section.hero {
-        background-color: $hero-color;
-        color: $main-color;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        
-
-        h1 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3em;
-            font-weight: lighter;
-            padding: 5%;
-
-        
     
-        }
-        img{
-            opacity: 60%;
-            width: 100%;
-            height: auto;
-            padding: 5%;
-            margin: 5%;
-        }
-
     }
 
     main {
@@ -82,9 +41,7 @@ body {
             margin: 5%;
             padding: 1%;
             border: 1px solid $hero-color;
-            .h3{
-                padding-bottom: 1%;
-            }
+            
 
         }
         .section-2{
@@ -92,9 +49,7 @@ body {
             width: 20%;
             padding: 1%;
             border: 1px solid $hero-color;
-            .h3{
-                padding-bottom: 1%;
-            }
+            
 
             
         }
@@ -103,9 +58,7 @@ body {
             width: 20%;
             padding: 1%;
             border: 1px solid $hero-color;
-            .h3 {
-                padding-bottom: 2%;
-            }
+            
             
         }
 

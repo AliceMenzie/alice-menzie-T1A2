@@ -1,0 +1,25 @@
+section.hero {
+    background-color: $hero-color;
+    color: $main-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        font-weight: lighter;
+        padding: 5%;
+
+    
+
+    }
+    img{
+        opacity: 60%;
+        width: 100%;
+        height: auto;
+        padding: 5%;
+        margin: 5%;
+    }

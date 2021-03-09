@@ -1,0 +1,31 @@
+nav {
+  margin: 5% 10% 5% 2.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .logo-links .logo {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+nav .nav-links {
+  list-style: none;
+  font-size: 1em;
+}
+
+nav .nav-links li {
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=navbar.css.map */
