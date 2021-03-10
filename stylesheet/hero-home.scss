@@ -3,6 +3,8 @@ $hero-color: #D5C7BC;
 
 
 section.hero {
+    // // -----------------change width
+    // width: 100%;
     background-color: $hero-color;
     color: $main-color;
     display: flex;
@@ -24,7 +26,7 @@ section.hero {
         opacity: 60%;
         width: 100%;
         height: auto;
-        padding: 5%;
-        margin: 5%;
+        // padding: 5%;
+        // margin: 5%;
     }
 }
