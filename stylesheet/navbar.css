@@ -21,8 +21,18 @@ header nav .logo-links {
   display: flex;
 }
 
+header nav .logo-links li {
+  padding-bottom: 1em;
+}
+
+header nav .logo-links .icon {
+  list-style: none;
+}
+
 header nav .logo-links .logo {
-  font-size: 2em;
+  font-weight: bolder;
+  list-style: none;
+  font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
