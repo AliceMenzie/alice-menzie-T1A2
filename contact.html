@@ -31,16 +31,11 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="hero">
         <h1>Contact me &#128172;</h1>
-        <div>
-            <ul>
-                <li>Linkedin</li>
-                <li>GitHub</li>
-            </ul>
-        </div>  
+         
     </section>
-    <main>
+    <main class="contact-main">
         <!-- <form action="">
             <input type="text" name="name" id="name">
             <input type="text" name="email" id="email">
@@ -52,17 +47,17 @@
 
         <!------------------------------- Netlify form start ----------------------------------------------->
 
-        <form name="contact" method="POST" data-netlify="true">
+        <form class="form" name="contact" method="POST" data-netlify="true">
             <p>
-              <label>Your Name: <input type="text" name="name" /></label>   
+              <label><!--Name:--> <input type="text" name="name" placeholder="Name" /></label>   
             </p>
             <p>
-              <label>Your Email: <input type="email" name="email" /></label>
+              <label> <!--Email:--> <input type="email" name="email" placeholder="Email" /></label>
             </p>
             <p>
             
             <p>
-              <label>Message: <textarea name="message" cols="30" rows="10"></textarea></label>
+              <label> <!--Message:--> <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea></label>
             </p>
             <p>
               <button type="submit">Send</button>

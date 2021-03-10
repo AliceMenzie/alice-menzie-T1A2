@@ -1,0 +1,44 @@
+.contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    .form {
+        input[type=text]{
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
+
+        }
+
+        input[type=email]{
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
+
+            
+        }
+        
+        textarea{
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
+            
+        }
+
+        button{
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
+        }
+    }
+}
+
+
