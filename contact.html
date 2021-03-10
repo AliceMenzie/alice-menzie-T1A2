@@ -32,7 +32,7 @@
         </nav>
     </header>
     <section>
-        <h1>Contact me &#128075;</h1>
+        <h1>Contact me &#128172;</h1>
         <div>
             <ul>
                 <li>Linkedin</li>
@@ -41,13 +41,37 @@
         </div>  
     </section>
     <main>
-        <form action="">
+        <!-- <form action="">
             <input type="text" name="name" id="name">
             <input type="text" name="email" id="email">
             <label for="contactme"></label>
             <textarea name="contactme" id="contactme" cols="30" rows="10">contact me here</textarea>
             <input type="submit" value="submit">    
-        </form>
+        </form> -->
+
+
+        <!------------------------------- Netlify form start ----------------------------------------------->
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+            
+            <p>
+              <label>Message: <textarea name="message" cols="30" rows="10"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+            <!-- span recaptcha filter -->
+            <div data-netlify-recaptcha="true"></div>
+          </form>
+
+           <!------------------------------- Netlify form end ----------------------------------------------->
     </main>
     
 </body>
