@@ -1,3 +1,47 @@
+.contact-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.contact-main .form input[type=text] {
+  border: 0px;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.contact-main .form input[type=email] {
+  border: 0px;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.contact-main .form textarea {
+  border: 0px;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.contact-main .form button {
+  border: 0px;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
 * {
   margin: 0;
   padding: 0;
