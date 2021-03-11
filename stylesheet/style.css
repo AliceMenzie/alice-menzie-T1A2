@@ -1,3 +1,18 @@
+.blog-post-body {
+  padding: 10% 5% 10% 5%;
+  background-color: #36363A;
+  color: #D5C7BC;
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
 #blog-main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
