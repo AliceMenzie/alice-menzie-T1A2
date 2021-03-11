@@ -1,0 +1,46 @@
+
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // text-align: center;
+    .introduction{
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+
+    }
+
+    .intro-details{
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        .about-me-content {
+            .emoji {
+                font-size: 25px;
+            }
+    
+        }
+
+    }
+        .photo-alice {
+        border-radius: 50%;
+        max-width: 70%;
+        height: auto;
+    }
+
+    
+    
+
+// @media only screen and (max-width: 600px) {
+//     .photo-alice {
+//         border-radius: 50%;
+//         max-width: 70%;
+//         height: auto;
+// }
+
