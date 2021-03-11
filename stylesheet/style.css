@@ -1,3 +1,13 @@
+#blog-main {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#blog-main ul {
+  list-style-type: none;
+  padding-bottom: 1em;
+}
+
 .introduction {
   padding: 1em;
   display: -webkit-box;
