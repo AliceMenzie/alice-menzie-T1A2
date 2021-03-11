@@ -8,9 +8,39 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.category {
+  color: #A78682;
+  font-size: 2em;
+  padding-bottom: 2em;
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+.blog-post-title {
+  color: #A78682;
+  font-size: 1.5em;
+  padding: 5%;
+}
+
+.content {
+  padding-bottom: 4%;
+}
+
+.date-published {
+  color: #A78682;
 }
 
 #blog-main {
