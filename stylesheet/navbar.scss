@@ -38,7 +38,10 @@ header {
             
             
         }
-        .nav-links {    
+        .nav-links { 
+            :hover {
+                text-decoration: underline;
+            }   
             list-style: none;
             font-size: 1em;
             li{
