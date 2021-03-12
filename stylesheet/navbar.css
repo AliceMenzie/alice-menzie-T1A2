@@ -29,6 +29,10 @@ header nav .logo-links .icon {
   list-style: none;
 }
 
+header nav .logo-links .icon :hover {
+  color: #A78682;
+}
+
 header nav .logo-links .logo {
   color: #A78682;
   font-weight: bolder;
@@ -38,17 +42,13 @@ header nav .logo-links .logo {
   letter-spacing: 0.5em;
 }
 
-header nav .logo-links .logo :hover {
-  text-decoration: underline;
-}
-
 header nav .nav-links {
   list-style: none;
   font-size: 1em;
 }
 
 header nav .nav-links :hover {
-  text-decoration: underline;
+  color: #A78682;
 }
 
 header nav .nav-links li {
