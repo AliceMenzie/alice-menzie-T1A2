@@ -1,5 +1,6 @@
 $main-color: #36363A;
 $hero-color: #D5C7BC;
+$logo-color: #A78682;
 
 
 header {
@@ -28,12 +29,15 @@ header {
                 
             }
             .logo {
+                color: $logo-color;
                 font-weight: bolder;
                 list-style: none;
                 font-size: 1.5em;
                 text-transform: uppercase;
                 letter-spacing: 0.5em;
-               
+                :hover {
+                    text-decoration: underline;
+                } 
                    
                 
             } 
