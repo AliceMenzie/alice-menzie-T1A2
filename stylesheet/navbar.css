@@ -42,6 +42,10 @@ header nav .nav-links {
   font-size: 1em;
 }
 
+header nav .nav-links :hover {
+  text-decoration: underline;
+}
+
 header nav .nav-links li {
   padding-bottom: 1em;
 }

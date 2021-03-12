@@ -1,5 +1,18 @@
+$main-color: #36363A;
+    $hero-color: #D5C7BC;
+
+    $shadow-color: #4E4E55;
+    @mixin shadow {
+        border: 1px solid $main-color;
+        background-color: $main-color;
+        box-shadow: 3px 3px 5px 6px $shadow-color;
+    // @include shadow;
+    }
+
+
 
 #blog-main{
+    
 
     justify-content: space-around;
     ul{
@@ -8,3 +21,16 @@
     }
 
 }    
+
+.nutrition-blog-section {
+    margin: 3%;
+    padding: 4%;
+    @include shadow;
+
+}
+
+.programming-blog-section {
+    margin: 3%;
+    padding: 4%;
+    @include shadow;
+}

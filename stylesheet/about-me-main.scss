@@ -4,13 +4,28 @@
     // flex-wrap: wrap;
     // justify-content: center;
     // text-align: center;
+    $main-color: #36363A;
+    $hero-color: #D5C7BC;
+
+    $shadow-color: #4E4E55;
+    @mixin shadow {
+        border: 1px solid $main-color;
+        background-color: $main-color;
+        box-shadow: 3px 3px 5px 6px $shadow-color;
+    // @include shadow;
+    }
+
+    
+
+
     .introduction{
         padding: 1em;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        
+
+      
 
     }
 
@@ -20,6 +35,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-end;
+        @include shadow;
         .about-me-content {
             .emoji {
                 font-size: 25px;

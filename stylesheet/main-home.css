@@ -10,24 +10,54 @@ main {
       flex-wrap: wrap;
 }
 
+main i {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+main .fa-fw {
+  padding: 5%;
+}
+
 main .section-1 {
-  width: 20%;
+  width: 100%;
+  height: auto;
   margin: 5%;
   padding: 1%;
-  border: 1px solid #D5C7BC;
+  border: 1px solid #36363A;
+  background-color: #36363A;
+  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
+          box-shadow: 3px 3px 5px 6px #4E4E55;
+}
+
+main .section-1 h3 {
+  padding-bottom: 10%;
 }
 
 main .section-2 {
   margin: 5%;
-  width: 20%;
+  width: 100%;
+  height: auto;
   padding: 1%;
-  border: 1px solid #D5C7BC;
+  border: 1px solid #36363A;
+  background-color: #36363A;
+  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
+          box-shadow: 3px 3px 5px 6px #4E4E55;
+}
+
+main .section-2 :hover :hover {
+  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
+          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 main .section-3 {
   margin: 5%;
-  width: 20%;
+  width: 100%;
+  height: auto;
   padding: 1%;
-  border: 1px solid #D5C7BC;
+  border: 1px solid #36363A;
+  background-color: #36363A;
+  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
+          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 /*# sourceMappingURL=main-home.css.map */
