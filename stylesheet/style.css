@@ -296,7 +296,7 @@ main .section-1 {
 }
 
 main .section-1 h3 {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 main .section-2 {
@@ -310,9 +310,8 @@ main .section-2 {
           box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
-main .section-2 :hover :hover {
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
+main .section-2 h3 {
+  padding-bottom: 5%;
 }
 
 main .section-3 {
@@ -324,5 +323,9 @@ main .section-3 {
   background-color: #36363A;
   -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
           box-shadow: 3px 3px 5px 6px #4E4E55;
+}
+
+main .section-3 h3 {
+  padding-bottom: 5%;
 }
 /*# sourceMappingURL=style.css.map */
