@@ -1,12 +1,7 @@
 
-    // display: flex;
-    // flex-direction: row;
-    // flex-wrap: wrap;
-    // justify-content: center;
-    // text-align: center;
     $main-color: #36363A;
     $hero-color: #D5C7BC;
-
+    $logo-color: #A78682;
     $shadow-color: #4E4E55;
     @mixin shadow {
         border: 1px solid $main-color;
@@ -16,6 +11,12 @@
     }
 
     
+    #resume {
+        color: $logo-color ;
+        font-weight: bolder;
+        border: 1px solid $logo-color;
+        padding: 0.5%;
+    }
 
 
     .introduction{
@@ -39,6 +40,7 @@
         .about-me-content {
             .emoji {
                 font-size: 25px;
+                
             }
     
         }
@@ -53,10 +55,5 @@
     
     
 
-// @media only screen and (max-width: 600px) {
-//     .photo-alice {
-//         border-radius: 50%;
-//         max-width: 70%;
-//         height: auto;
-// }
+
 

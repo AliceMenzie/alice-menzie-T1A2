@@ -1,3 +1,10 @@
+#resume {
+  color: #A78682;
+  font-weight: bolder;
+  border: 1px solid #A78682;
+  padding: 0.5%;
+}
+
 .introduction {
   padding: 1em;
   display: -webkit-box;
