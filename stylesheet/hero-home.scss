@@ -20,3 +20,9 @@ section.hero {
     height: auto;
   }
 }
+
+@media screen and (max-width: 992px) {
+    img {
+      display: none;
+    }
+  }
