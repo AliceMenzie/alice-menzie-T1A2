@@ -1,14 +1,12 @@
-*{  
-    
-    margin: 0;
-    padding: 0;
+$main-color: #36363a;
+$hero-color: #d5c7bc;
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-$main-color: #36363A;
-$hero-color: #D5C7BC;
-
-
 a {
-    text-decoration: none;
-    color: $hero-color;
+  text-decoration: none;
+  color: $hero-color;
 }

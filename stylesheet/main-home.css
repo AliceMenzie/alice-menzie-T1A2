@@ -20,10 +20,6 @@ main .section-1 {
   height: auto;
   margin: 5%;
   padding: 1%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 main .section-1 h3 {
@@ -35,10 +31,6 @@ main .section-2 {
   width: 100%;
   height: auto;
   padding: 1%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 main .section-2 h3 {
@@ -50,10 +42,6 @@ main .section-3 {
   width: 100%;
   height: auto;
   padding: 1%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 main .section-3 h3 {

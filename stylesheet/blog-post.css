@@ -1,8 +1,8 @@
 .blog-post-body {
   padding: 10% 5% 10% 5%;
-  background-color: #36363A;
-  color: #D5C7BC;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #36363a;
+  color: #d5c7bc;
+  font-family: "Montserrat", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +18,7 @@
 }
 
 .category {
-  color: #A78682;
+  color: #a78682;
   font-size: 2em;
   padding-bottom: 2em;
 }
@@ -30,7 +30,7 @@
 }
 
 .blog-post-title {
-  color: #A78682;
+  color: #a78682;
   font-size: 1.5em;
   padding: 5%;
 }
@@ -40,6 +40,6 @@
 }
 
 .date-published {
-  color: #A78682;
+  color: #a78682;
 }
 /*# sourceMappingURL=blog-post.css.map */

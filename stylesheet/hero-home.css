@@ -1,6 +1,6 @@
 section.hero {
-  background-color: #D5C7BC;
-  color: #36363A;
+  background-color: #d5c7bc;
+  color: #36363a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,7 +13,7 @@ section.hero {
 }
 
 section.hero h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3em;
   font-weight: lighter;
   padding: 5%;

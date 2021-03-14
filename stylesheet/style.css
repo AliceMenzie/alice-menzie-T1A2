@@ -56,25 +56,17 @@
 .nutrition-blog-section {
   margin: 3%;
   padding: 4%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 .programming-blog-section {
   margin: 3%;
   padding: 4%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 #resume {
-  color: #A78682;
+  color: #a78682;
   font-weight: bolder;
-  border: 1px solid #A78682;
+  border: 1px solid #a78682;
   padding: 0.5%;
 }
 
@@ -108,10 +100,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 .intro-details .about-me-content .emoji {
@@ -139,10 +127,6 @@
 .contact-main .form {
   padding: 7%;
   width: 80%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 .contact-main .form input[type=text] {
@@ -297,10 +281,6 @@ main .section-1 {
   height: auto;
   margin: 5%;
   padding: 1%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 main .section-1 h3 {
@@ -312,10 +292,6 @@ main .section-2 {
   width: 100%;
   height: auto;
   padding: 1%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 main .section-2 h3 {
@@ -327,10 +303,6 @@ main .section-3 {
   width: 100%;
   height: auto;
   padding: 1%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 main .section-3 h3 {

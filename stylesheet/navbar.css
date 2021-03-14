@@ -1,8 +1,8 @@
 header {
-  background-color: #36363A;
-  color: #D5C7BC;
+  background-color: #36363a;
+  color: #d5c7bc;
   padding: 2em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header nav {
@@ -30,11 +30,11 @@ header nav .logo-links .icon {
 }
 
 header nav .logo-links .icon :hover {
-  color: #A78682;
+  color: #a78682;
 }
 
 header nav .logo-links .logo {
-  color: #A78682;
+  color: #a78682;
   font-weight: bolder;
   list-style: none;
   font-size: 1.5em;
@@ -48,7 +48,7 @@ header nav .nav-links {
 }
 
 header nav .nav-links :hover {
-  color: #A78682;
+  color: #a78682;
 }
 
 header nav .nav-links li {

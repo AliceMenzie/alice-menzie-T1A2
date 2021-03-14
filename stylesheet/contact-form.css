@@ -13,10 +13,6 @@
 .contact-main .form {
   padding: 7%;
   width: 80%;
-  border: 1px solid #36363A;
-  background-color: #36363A;
-  -webkit-box-shadow: 3px 3px 5px 6px #4E4E55;
-          box-shadow: 3px 3px 5px 6px #4E4E55;
 }
 
 .contact-main .form input[type=text] {
