@@ -1,48 +1,66 @@
-$main-color: #36363a;
-$hero-color: #d5c7bc;
+$main-color: #36363A;
+    $hero-color: #D5C7BC;
+
+    $shadow-color: #4E4E55;
+    @mixin shadow {
+        border: 1px solid $main-color;
+        background-color: $main-color;
+        box-shadow: 3px 3px 5px 6px $shadow-color;
+    // @include shadow;
+    }
+
+
+
+
 
 .contact-main {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  .form {
-    padding: 7%;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    .form {
+        padding: 7%;
+        width: 80%;
+        @include shadow;
+        input[type=text]{
+            width: 100%;
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
 
-    input[type="text"] {
-      width: 100%;
-      border: 0px;
-      padding: 10px;
-      margin: 10px 0;
-      font-family: inherit;
-      font-size: inherit;
-    }
+        }
 
-    input[type="email"] {
-      width: 100%;
-      border: 0px;
-      padding: 10px;
-      margin: 10px 0;
-      font-family: inherit;
-      font-size: inherit;
-    }
+        input[type=email]{
+            width: 100%;
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
 
-    textarea {
-      width: 100%;
-      border: 0px;
-      padding: 10px;
-      margin: 10px 0;
-      font-family: inherit;
-      font-size: inherit;
-    }
+            
+        }
+        
+        textarea{
+            width: 100%;
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
+            
+        }
 
-    button {
-      width: 100%;
-      border: 0px;
-      padding: 10px;
-      margin: 10px 0;
-      font-family: inherit;
-      font-size: inherit;
+        button{
+            width: 100%;
+            border: 0px;
+            padding: 10px;
+            margin:10px 0;
+            font-family:inherit;
+            font-size: inherit;
+        }
     }
-  }
 }
+
+

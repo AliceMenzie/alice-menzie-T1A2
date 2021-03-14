@@ -1,38 +1,59 @@
-$main-color: #36363a;
-$hero-color: #d5c7bc;
-$logo-color: #a78682;
 
-
-#resume {
-  color: $logo-color;
-  font-weight: bolder;
-  border: 1px solid $logo-color;
-  padding: 0.5%;
-}
-
-.introduction {
-  padding: 1em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.intro-details {
-  padding: 1em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-
-  .about-me-content {
-    .emoji {
-      font-size: 25px;
+    $main-color: #36363A;
+    $hero-color: #D5C7BC;
+    $logo-color: #A78682;
+    $shadow-color: #4E4E55;
+    @mixin shadow {
+        border: 1px solid $main-color;
+        background-color: $main-color;
+        box-shadow: 3px 3px 5px 6px $shadow-color;
+    // @include shadow;
     }
-  }
-}
-.photo-alice {
-  border-radius: 50%;
-  max-width: 70%;
-  height: auto;
-}
+
+    
+    #resume {
+        color: $logo-color ;
+        font-weight: bolder;
+        border: 1px solid $logo-color;
+        padding: 0.5%;
+    }
+
+
+    .introduction{
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+      
+
+    }
+
+    .intro-details{
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        @include shadow;
+        .about-me-content {
+            .emoji {
+                font-size: 25px;
+                
+            }
+    
+        }
+
+    }
+        .photo-alice {
+        border-radius: 50%;
+        max-width: 70%;
+        height: auto;
+    }
+
+    
+    
+
+
+

@@ -1,49 +1,70 @@
-$main-color: #36363a;
-$hero-color: #d5c7bc;
-$logo-color: #a78682;
+$main-color: #36363A;
+$hero-color: #D5C7BC;
+$logo-color: #A78682;
+$shadow-color: #4E4E55;
+@mixin shadow {
+    border: 1px solid $main-color;
+    background-color: $main-color;
+    box-shadow: 3px 3px 5px 6px $shadow-color;
+
+}
+// #A78682;
+
 
 main {
-  padding: 10% 5% 10% 5%;
-  background-color: $main-color;
-  color: $hero-color;
-  font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-wrap: wrap;
+    padding: 10% 5% 10% 5%;
+    background-color: $main-color;
+    color: $hero-color;
+    font-family:'Montserrat', sans-serif; 
+    display: flex;
+    flex-wrap: wrap;
 
-  i {
-    display: inline-block;
-    margin-right: 0.5em;
-  }
+    i {
+        display: inline-block;
+        margin-right: 0.5em;
+      }
+      
 
-  .section-1 {
-    width: 100%;
-    height: auto;
-    margin: 5%;
-    padding: 1%;
+    
 
-    h3 {
-      padding-bottom: 5%;
+
+    .section-1{
+        width: 100%;
+        height: auto;
+        margin: 5%;
+        padding: 1%;
+        @include shadow;
+       
+        h3{
+            padding-bottom: 5%;
+        }
+       
+       
+
     }
-  }
-  .section-2 {
-    margin: 5%;
-    width: 100%;
-    height: auto;
-    padding: 1%;
-
-    h3 {
-      padding-bottom: 5%;
+    .section-2{
+        margin: 5%;
+        width: 100%;
+        height: auto;
+        padding: 1%;
+        @include shadow;
+        h3{
+            padding-bottom: 5%;
+        }
+       
     }
-  }
 
-  .section-3 {
-    margin: 5%;
-    width: 100%;
-    height: auto;
-    padding: 1%;
-
-    h3 {
-      padding-bottom: 5%;
+    
+    .section-3 {
+        margin: 5%;
+        width: 100%;
+        height: auto;
+        padding: 1%;
+        @include shadow;
+        h3{
+            padding-bottom: 5%;
+        }
     }
-  }
+        
+        
 }

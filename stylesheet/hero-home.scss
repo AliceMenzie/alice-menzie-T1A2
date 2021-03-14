@@ -1,22 +1,32 @@
-$main-color: #36363a;
-$hero-color: #d5c7bc;
+$main-color: #36363A;
+$hero-color: #D5C7BC;
+
 
 section.hero {
-  background-color: $hero-color;
-  color: $main-color;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    // // -----------------change width
+    // width: 100%;
+    background-color: $hero-color;
+    color: $main-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 3em;
-    font-weight: lighter;
-    padding: 5%;
-  }
-  img {
-    opacity: 60%;
-    width: 100%;
-    height: auto;
-  }
+    
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        font-weight: lighter;
+        padding: 5%;
+
+    
+
+    }
+    img{
+        opacity: 60%;
+        width: 100%;
+        height: auto;
+        // padding: 5%;
+        // margin: 5%;
+    }
 }
