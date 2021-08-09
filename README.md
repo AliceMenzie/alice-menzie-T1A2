@@ -4,9 +4,12 @@ My first deployed website and assessment as part of my Diploma of IT at [Coder A
 
 Requirements for this assessment included:
 
-✅ Responsive design 
+✅ Responsive design
+
 ✅ A form 
-✅ A blog Section with at least 5 posts 
+
+✅ A blog section with at least 5 posts 
+
 ✅ A button linking to a resume 
 
 ### Deployed with Netlify
